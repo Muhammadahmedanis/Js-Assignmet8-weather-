@@ -5,24 +5,6 @@
 
 
 
-/* .transition-fade{
-    transition: 500ms;
-    opacity: 1;
-    transform: translateX(0);
-    transform-origin: left;
-}
-
-html.is-animating .transition-fade{
-    opacity: 1;
-    transform:  translateX(100%);
-}
-
-html.is-leaving .transition-fade{
-    opacity: 0;
-    transform: translateX(0);
-} */
-
-
 .navbar{
     background-color: #62c1e5 !important; 
 }
@@ -32,23 +14,16 @@ html.is-leaving .transition-fade{
     color: whitesmoke !important;
 }
 body{
-    /* height: auto; */
     background: #7cbdd7 !important;
-/* background: linear-gradient(#3c8ce7d7, #00eaff83) !important; */
 }
 .main{
-    /* height: auto; */
-    /* height: 300px; */
-    /* border: 2px solid black; */
-    padding-top: 6%;    
-    /* padding: 0 4px; */
+    padding: 20px 14px;
+    padding-bottom: 0px;
 }
 .div{
-    /* border: 2px solid black; */
     box-shadow: 3px 3px 12px #0c9ed6;
-    /* height: auto; */
     width: 500px;           
-    margin: 17px auto;
+    margin: 9px auto;
 }
 @media (max-width: 540px) {
     .div{
@@ -72,10 +47,7 @@ body{
 }
 .divs{
     background-image: url("https://img.freepik.com/free-photo/sunset-sky-with-clouds-illuminated-vibrant-orange-hues_157027-3031.jpg?t=st=1717573756~exp=1717577356~hmac=dce6294a1ede8c58aae40bfb1b7b0a6336a95f4c9f09c3bf8032a9e7ebfcb803&w=826");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
-    /* height: 100px; */
     height: 160px;
     padding-top: 40px;
     text-align: center;
