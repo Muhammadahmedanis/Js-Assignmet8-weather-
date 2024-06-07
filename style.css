@@ -5,7 +5,7 @@
 
 
 
-.transition-fade{
+/* .transition-fade{
     transition: 500ms;
     opacity: 1;
     transform: translateX(0);
@@ -20,11 +20,7 @@ html.is-animating .transition-fade{
 html.is-leaving .transition-fade{
     opacity: 0;
     transform: translateX(0);
-}
-
-
-
-
+} */
 
 
 .navbar{
@@ -36,19 +32,23 @@ html.is-leaving .transition-fade{
     color: whitesmoke !important;
 }
 body{
-background: linear-gradient(#3c8ce7d7, #00eaff83) !important;
-/* background: #a0d9ef !important; */
+    /* height: auto; */
+    background: #7cbdd7 !important;
+/* background: linear-gradient(#3c8ce7d7, #00eaff83) !important; */
 }
 .main{
+    /* height: auto; */
+    /* height: 300px; */
     /* border: 2px solid black; */
-    padding-top: 8%;
+    padding-top: 6%;    
+    /* padding: 0 4px; */
 }
 .div{
     /* border: 2px solid black; */
     box-shadow: 3px 3px 12px #0c9ed6;
-    height: 120px;
-    width: 35%;            /*   &            */
-    margin: 12px auto;
+    /* height: auto; */
+    width: 500px;           
+    margin: 17px auto;
 }
 .div1{
     display: flex;
